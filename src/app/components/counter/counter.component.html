@@ -1,0 +1,25 @@
+<div class="row mt-4">
+  <div class="col">
+    <p>{{ currentCount() }}</p>
+    <br />
+    <button mat-stroked-button (click)="incrementCounterByOne()">
+      Increment count
+    </button>
+    <button
+      mat-stroked-button
+      color="success"
+      class="ms-2"
+      (click)="multiplyCounterByTwo()"
+    >
+      Multiply by 2
+    </button>
+    <button
+      mat-stroked-button
+      color="success"
+      class="ms-2"
+      (click)="resetCounter()"
+    >
+      Reset
+    </button>
+  </div>
+</div>

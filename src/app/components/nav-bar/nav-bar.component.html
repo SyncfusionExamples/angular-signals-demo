@@ -1,0 +1,15 @@
+<mat-toolbar>
+  <button mat-button [routerLink]="['/']">
+    <mat-icon aria-hidden="false" fontIcon="home_filled"></mat-icon>
+    Home
+  </button>
+  <span class="spacer"></span>
+  <button
+    mat-icon-button
+    matBadge="{{ cartItemsList().length }}"
+    matBadgeSize="large"
+    class="me-4"
+  >
+    <mat-icon [routerLink]="['/cart']">shopping_cart </mat-icon>
+  </button>
+</mat-toolbar>

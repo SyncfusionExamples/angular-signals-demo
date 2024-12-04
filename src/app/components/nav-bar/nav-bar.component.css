@@ -1,0 +1,10 @@
+mat-toolbar {
+  position: fixed;
+  z-index: 999;
+  background: #d7e3ff;
+  padding: 8px 16px;
+}
+
+.spacer {
+  flex-grow: 1;
+}
