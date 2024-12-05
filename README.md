@@ -4,10 +4,10 @@ This repository contains a sample application designed to demonstrate the usage 
 
 ## Concepts Covered
 
-- Introduction to Signals: Learn the basics of Signals and their role in reactive programming.
-- State Updates: Implement Signals for seamless and efficient state changes.
-- Reactive Dependencies: Demonstrate how dependent computations update automatically.
-- Optimized UI Rendering: Use Signals to improve performance by reducing unnecessary re-renders.
+- **Introduction to Signals**: Learn the basics of Signals and their role in reactive programming.
+- **State Updates**: Implement Signals for seamless and efficient state changes.
+- **Reactive Dependencies**: Demonstrate how dependent computations update automatically.
+- **Optimized UI Rendering**: Use Signals to improve performance by reducing unnecessary re-renders.
 
 ## Why Signals?
 Angular Signals offer a clean and powerful way to manage application state and reactivity. Unlike traditional observables or services, Signals focus on:
@@ -20,6 +20,6 @@ This application showcases how to leverage these benefits in a real-world applic
 
 ## Related blog
 
-Please provide the link to the blog here, once it is published.
+[Angular Signals: Reactive Programming Simplified](https://www.syncfusion.com/blogs/post/angular-signals-reactive-programming)
 
 
